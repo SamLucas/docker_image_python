@@ -10,7 +10,7 @@ Recomendo que use o seguinte comando a baixo para montar a imagem
 ```
 $ sudo docker run -it \
  -p 8000:8000 \
- -v $PWD:/home/python 
+ -v $PWD:/home/python \
  --name PythonDjango \
  samuellucas/python /bin/bash
 ```
